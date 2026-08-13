@@ -1,0 +1,25 @@
+/* src/styles/variables.css */
+:root {
+  /* Brand Palette (Inspired by YouTube Channel Banner) */
+  --sky-blue: #38bdf8;
+  --sky-blue-hover: #0284c7;
+  --sunbeam-gold: #facc15;
+  --magenta-pink: #ec4899;
+  
+  /* Dark / Glassmorphism Backgrounds */
+  --bg-dark: #0f172a;
+  --bg-card: rgba(30, 41, 59, 0.7);
+  --bg-card-hover: rgba(51, 65, 85, 0.8);
+  --border-glass: rgba(255, 255, 255, 0.1);
+  
+  /* Text Colors */
+  --text-primary: #f8fafc;
+  --text-secondary: #94a3b8;
+  --text-accent: #facc15;
+
+  /* Layout & Spacing */
+  --radius-sm: 8px;
+  --radius-md: 16px;
+  --radius-lg: 24px;
+  --transition-fast: all 0.3s ease;
+}

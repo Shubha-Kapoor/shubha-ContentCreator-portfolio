@@ -1,0 +1,20 @@
+/* src/App.css */
+
+.app-main-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.content-container {
+  flex: 1;
+}
+
+.global-footer {
+  text-align: center;
+  padding: 20px;
+  font-size: 0.75rem;
+  color: var(--text-secondary);
+  border-top: 1px solid var(--border-glass);
+  background: rgba(15, 23, 42, 0.9);
+}

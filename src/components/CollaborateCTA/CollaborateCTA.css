@@ -1,0 +1,138 @@
+/* src/components/CollaborateCTA/CollaborateCTA.css */
+
+.collaborate-container {
+  max-width: 800px;
+  margin: 0 auto 48px auto;
+  padding: 0 20px;
+}
+
+.collaborate-card {
+  background: linear-gradient(135deg, rgba(30, 41, 59, 0.85), rgba(15, 23, 42, 0.95));
+  border: 1px solid rgba(250, 204, 21, 0.3);
+  border-radius: var(--radius-lg);
+  padding: 32px 24px;
+  text-align: center;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+.collab-title {
+  font-size: 1.6rem;
+  font-weight: 800;
+  color: var(--text-primary);
+  margin-bottom: 6px;
+}
+
+.collab-tagline {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--sunbeam-gold);
+  margin-bottom: 12px;
+  font-style: italic;
+}
+
+.collab-description {
+  font-size: 0.88rem;
+  color: var(--text-secondary);
+  line-height: 1.6;
+  max-width: 600px;
+  margin: 0 auto 20px auto;
+}
+
+.tags-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 24px;
+}
+
+.collab-tag {
+  font-size: 0.78rem;
+  font-weight: 600;
+  background: rgba(56, 189, 248, 0.12);
+  color: var(--sky-blue);
+  border: 1px solid rgba(56, 189, 248, 0.3);
+  padding: 6px 14px;
+  border-radius: 20px;
+}
+
+.cta-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 14px;
+  margin-bottom: 12px;
+}
+
+.cta-button {
+  font-size: 0.9rem;
+  font-weight: 600;
+  padding: 12px 22px;
+  border-radius: var(--radius-sm);
+  transition: var(--transition-fast);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.insta-btn {
+  background: linear-gradient(135deg, var(--magenta-pink), #db2777);
+  color: #ffffff;
+}
+
+.insta-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 18px rgba(236, 72, 153, 0.4);
+}
+
+.email-btn {
+  background: rgba(255, 255, 255, 0.1);
+  color: var(--text-primary);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.email-btn:hover {
+  background: rgba(255, 255, 255, 0.2);
+  transform: translateY(-2px);
+}
+
+.response-time {
+  font-size: 0.75rem;
+  color: var(--text-secondary);
+  margin-bottom: 20px;
+}
+
+.divider {
+  height: 1px;
+  background: rgba(255, 255, 255, 0.1);
+  margin: 20px auto;
+  width: 80%;
+}
+
+.spark-quote {
+  font-size: 0.9rem;
+  color: var(--sunbeam-gold);
+  font-style: italic;
+}
+
+.spark-quote footer {
+  margin-top: 4px;
+  font-size: 0.8rem;
+  color: var(--text-secondary);
+  font-style: normal;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+  .collaborate-card {
+    padding: 24px 16px;
+  }
+
+  .cta-buttons {
+    flex-direction: column;
+  }
+
+  .cta-button {
+    width: 100%;
+  }
+}
