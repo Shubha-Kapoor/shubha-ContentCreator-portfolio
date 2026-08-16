@@ -1,6 +1,8 @@
 # 🌻 Shubha Kapoor — Creator Hub & Interactive Link-in-Bio Portfolio
 
-> *"Inspiring positivity, one collab at a time."*
+>"Every journey begins with a single spark of courage."
+
+— Shubha Kapoor
 
 A vibrant, modern, and responsive single-page creator portfolio and link-in-bio web application. Built from scratch with **React.js** and **modular CSS3**, this platform unifies digital content creation, published books, UGC campaigns, and technical software development achievements into an eye-catching, high-performance web experience.
 
